@@ -25,7 +25,7 @@ class DonationAlertsAPI:
     """
 
     def __init__(
-        self, client_id, client_secret, redirect_uri, scopes: str | [str]
+        self, client_id, client_secret, redirect_uri, scopes: str
     ):
         self.scope = scopes
         self.client_id = client_id
